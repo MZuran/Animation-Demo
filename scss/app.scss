@@ -1,0 +1,14 @@
+/* Basics */
+@import './basics/reset.scss';
+@import './basics/color.scss';
+@import './basics/fonts.scss';
+@import './basics/flexbox.scss';
+
+/* Animations */
+@import './animations/animation_manager.scss';
+
+@import './animations/cycling_font.scss';
+@import './animations/cycling_background.scss';
+
+/* Pages */
+@import './pages/index.scss';

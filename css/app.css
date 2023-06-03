@@ -1,0 +1,118 @@
+/* Basics */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "font0";
+  src: url("../../media/fonts/Dosis-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "font1";
+  src: url("../../media/fonts/Early GameBoy.ttf") format("truetype");
+}
+@font-face {
+  font-family: "font2";
+  src: url("../../media/fonts/Folk Festival.ttf") format("truetype");
+}
+@font-face {
+  font-family: "font3";
+  src: url("../../media/fonts/Franchise.ttf") format("truetype");
+}
+@font-face {
+  font-family: "font4";
+  src: url("../../media/fonts/Kawaii Stitch.ttf") format("truetype");
+}
+@font-face {
+  font-family: "font5";
+  src: url("../../media/fonts/KGHAPPY.ttf") format("truetype");
+}
+@font-face {
+  font-family: "font6";
+  src: url("../../media/fonts/PopArt-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "font7";
+  src: url("../../media/fonts/Senzow.ttf") format("truetype");
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.occupy-all-parent {
+  width: 100%;
+  height: 100%;
+}
+
+/* Animations */
+@keyframes fontAnimation {
+  0%, 14.2857% {
+    font-family: "font1";
+  }
+  14.2858%, 28.5714% {
+    font-family: "font2";
+  }
+  28.5715%, 42.8571% {
+    font-family: "font3";
+  }
+  42.8572%, 57.1428% {
+    font-family: "font4";
+  }
+  57.1429%, 71.4285% {
+    font-family: "font5";
+  }
+  71.4286%, 85.7142% {
+    font-family: "font6";
+  }
+  85.7143%, 100% {
+    font-family: "font7";
+  }
+}
+.cycling-font {
+  animation-name: fontAnimation;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes backgroundAnimation {
+  0%, 14.2857% {
+    background-image: url("../../media/backgrounds/pixel-dots.svg");
+  }
+  14.2858%, 28.5714% {
+    background-image: url("../../media/backgrounds/fabric_flowers_bg.jpg");
+  }
+  71.4286%, 85.7142% {
+    background-image: url("../../media/backgrounds/retro70s_bg.svg");
+  }
+}
+.cycling-background {
+  animation-name: backgroundAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition: none;
+  transition-duration: 0s;
+}
+
+.funky-background {
+  background-image: url("../../media/backgrounds/cheese_bg.svg");
+}
+
+/* Pages */
+.first-clickable {
+  font-size: 10vw;
+  text-align: center;
+}
+
+/*# sourceMappingURL=app.css.map */

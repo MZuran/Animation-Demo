@@ -1,0 +1,73 @@
+$font-main : 'font0';
+
+$font-retro : 'font1';
+
+$font-patchwork : 'font2';
+
+$font-thick-edge : 'font3';
+
+$font-stitches : 'font4';
+
+$font-line-shading : 'font5';
+
+$font-pop : 'font6';
+
+$font-thick-shade : 'font7';
+
+$font-0 : $font-main; 
+
+$font-1 : $font-retro; 
+
+$font-2 : $font-patchwork; 
+
+$font-3 : $font-thick-edge; 
+
+$font-4 : $font-stitches; 
+
+$font-5 : $font-line-shading; 
+
+$font-6 : $font-pop; 
+
+$font-7 : $font-thick-shade;
+
+
+@font-face {
+    font-family: $font-0;
+    src: url('../../media/fonts/Dosis-VariableFont_wght.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: $font-1;
+    src: url('../../media/fonts/Early\ GameBoy.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: $font-2;
+    src: url('../../media/fonts/Folk\ Festival.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: $font-3;
+    src: url('../../media/fonts/Franchise.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: $font-4;
+    src: url('../../media/fonts/Kawaii\ Stitch.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: $font-5;
+    src: url('../../media/fonts/KGHAPPY.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: $font-6;
+    src: url('../../media/fonts/PopArt-Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: $font-7;
+    src: url('../../media/fonts/Senzow.ttf') format('truetype');
+  }
+

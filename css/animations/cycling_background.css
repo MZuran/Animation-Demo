@@ -1,0 +1,18 @@
+/* Error: Undefined variable.
+ *    ,
+ * 27 |   @mixin backgroundCycleAnimation($duration: $font-animation-duration) {
+ *    |                                              ^^^^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   scss\animations\cycling_background.scss 27:46  backgroundCycleAnimation()
+ *   scss\animations\cycling_background.scss 34:5   root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 27 \2502    @mixin backgroundCycleAnimation($duration: $font-animation-duration) {\d\a    \2502                                               ^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\animations\\cycling_background.scss 27:46  backgroundCycleAnimation()\a   scss\\animations\\cycling_background.scss 34:5   root stylesheet";
+}
