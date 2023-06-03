@@ -1,9 +1,9 @@
 @keyframes backgroundAnimation {
     0%, 14.2857% {
-      background-image: url('../../media/backgrounds/pixel-dots.svg');
+      background-image: url('../media/backgrounds/pixel-dots.svg');
     }
     14.2858%, 28.5714% {
-        background-image: url('../../media/backgrounds/fabric_flowers_bg.jpg');
+        background-image: url('../media/backgrounds/fabric_flowers_bg.jpg');
     }
     28.5715%, 42.8571% {
       
@@ -15,7 +15,7 @@
       
     }
     71.4286%, 85.7142% {
-        background-image: url('../../media/backgrounds/retro70s_bg.svg');
+        background-image: url('../media/backgrounds/retro70s_bg.svg');
     }
     85.7143%, 100% {
       
@@ -37,5 +37,5 @@
   }
 
   .funky-background {
-    background-image: url('../../media/backgrounds/cheese_bg.svg');
+    background-image: url('../media/backgrounds/cheese_bg.svg');
   }

@@ -6,35 +6,35 @@
 
 @font-face {
   font-family: "font0";
-  src: url("../../media/fonts/Dosis-VariableFont_wght.ttf") format("truetype");
+  src: url("../media/fonts/Dosis-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
   font-family: "font1";
-  src: url("../../media/fonts/Early GameBoy.ttf") format("truetype");
+  src: url("../media/fonts/Early GameBoy.ttf") format("truetype");
 }
 @font-face {
   font-family: "font2";
-  src: url("../../media/fonts/Folk Festival.ttf") format("truetype");
+  src: url("../media/fonts/Folk Festival.ttf") format("truetype");
 }
 @font-face {
   font-family: "font3";
-  src: url("../../media/fonts/Franchise.ttf") format("truetype");
+  src: url("../media/fonts/Franchise.ttf") format("truetype");
 }
 @font-face {
   font-family: "font4";
-  src: url("../../media/fonts/Kawaii Stitch.ttf") format("truetype");
+  src: url("../media/fonts/Kawaii Stitch.ttf") format("truetype");
 }
 @font-face {
   font-family: "font5";
-  src: url("../../media/fonts/KGHAPPY.ttf") format("truetype");
+  src: url("../media/fonts/KGHAPPY.ttf") format("truetype");
 }
 @font-face {
   font-family: "font6";
-  src: url("../../media/fonts/PopArt-Regular.ttf") format("truetype");
+  src: url("../media/fonts/PopArt-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "font7";
-  src: url("../../media/fonts/Senzow.ttf") format("truetype");
+  src: url("../media/fonts/Senzow.ttf") format("truetype");
 }
 .flex-row {
   display: flex;
@@ -88,13 +88,13 @@
 
 @keyframes backgroundAnimation {
   0%, 14.2857% {
-    background-image: url("../../media/backgrounds/pixel-dots.svg");
+    background-image: url("../media/backgrounds/pixel-dots.svg");
   }
   14.2858%, 28.5714% {
-    background-image: url("../../media/backgrounds/fabric_flowers_bg.jpg");
+    background-image: url("../media/backgrounds/fabric_flowers_bg.jpg");
   }
   71.4286%, 85.7142% {
-    background-image: url("../../media/backgrounds/retro70s_bg.svg");
+    background-image: url("../media/backgrounds/retro70s_bg.svg");
   }
 }
 .cycling-background {
@@ -106,7 +106,7 @@
 }
 
 .funky-background {
-  background-image: url("../../media/backgrounds/cheese_bg.svg");
+  background-image: url("../media/backgrounds/cheese_bg.svg");
 }
 
 /* Pages */
